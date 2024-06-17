@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 img{
@@ -58,7 +59,7 @@ footer{
     margin: auto;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 15px;
 }
 
 ul{
@@ -82,11 +83,65 @@ li{
     margin: auto;
     padding: 20px;
 }
+
 .fa-earth-americas{
     color: grey;
 }
+
 .lingua{
     background-color: rgb(35, 39, 42);
     color: grey;
     border: 0;
+}
+
+/*main*/
+
+.container-azzurro{
+    background-color: rgb(180, 208, 231);
+    
+}
+.container70{
+    width: 70%;
+    margin:auto;
+}
+
+h1{
+    font-size: 4rem ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.container-intero{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+}
+
+.container-scritta{
+    width: 40%;
+    position: relative;
+}
+
+.container-img{
+    width: 60%;;
+    position: relative;
+}
+.btn-margin{
+    margin: 20px;
+    margin-left: 0;
+}
+.freccia-giu{
+    font-size: 5rem;  
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbo{
+    max-width: none;
+    width: 750px;
+    height: 450px;
+    position: absolute;
+    bottom: -50px;
 }
