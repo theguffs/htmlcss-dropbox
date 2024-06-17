@@ -1,12 +1,15 @@
 /*general*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 img{
     max-width: 100%;
 }
+
 /*header*/
 header{
     height: 60px;
@@ -31,7 +34,6 @@ header{
     padding-right: 15px;
 }
 
-
 a{
     text-decoration: none;
     color: black;
@@ -41,5 +43,50 @@ button{
     background-color: rgb(0, 97, 255);
     color: white;
     padding: 10px;
+    border: 0;
+}
+
+/*footer*/
+
+footer{
+    background-color: rgb(35, 39, 42);
+    height: 335px;
+}
+.container-footer{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+ul{
+    color: white;
+    list-style: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+ul:hover{
+    border-bottom: solid 1px grey;
+
+}
+
+li{
+    padding-top: 15px;
+}
+
+.container-lingua{
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+.fa-earth-americas{
+    color: grey;
+}
+.lingua{
+    background-color: rgb(35, 39, 42);
+    color: grey;
     border: 0;
 }
