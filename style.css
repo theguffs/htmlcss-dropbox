@@ -45,6 +45,8 @@ button{
     color: white;
     padding: 10px;
     border: 0;
+    margin: 10px 0;
+    display: inline;
 }
 
 /*footer*/
@@ -71,7 +73,6 @@ ul{
 
 ul:hover{
     border-bottom: solid 1px grey;
-
 }
 
 li{
@@ -125,7 +126,7 @@ h1{
 }
 
 .container-img{
-    width: 60%;;
+    width: 60%;
     position: relative;
 }
 .btn-margin{
@@ -145,3 +146,93 @@ h1{
     position: absolute;
     bottom: -50px;
 }
+
+.container60{
+    width: 900px;;
+    margin: auto;
+    padding-top: 100px;
+    
+}
+h2{
+    padding-bottom: 50px;
+    font-size: 2rem;
+}
+
+.scelta-pagamenti{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.colonna{
+    border: 1px solid black;
+    width: 33%;
+    margin: 10px;
+}
+.titolo-colonna{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.fa-solid{
+    padding-right: 5px;
+    display: inline;
+}
+
+.content-colonna{
+    padding-left:50px;
+    flex-wrap: nowrap;
+}
+
+h4{
+    padding: 20px 0;
+    font-size: 1.5em;
+}
+.grigio{
+    color: grey;
+    padding: 10px 0;
+}
+
+.content-colonna > span{
+    margin: 10px 0;
+    display: inline-block;
+}
+.free{
+    text-decoration:underline;
+    color: blue;
+    
+}
+
+.content-colonna > hr{
+    width: 20%;
+    margin: 30px 0;
+}
+
+.fa-check{
+    color: blue;
+}
+
+.row{
+    border: 1px solid black;
+    width: 100%;
+    margin: 10px;
+}
+.row100{
+    display: flex;
+    justify-content: space-between;
+}
+.row70{
+    padding-left: 20px;
+    width: 70%;
+}
+
+.row30{
+    width: (30% - 40px);
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.seconda-sezione{
+    width: 100%;
+    display: flex;
+}
+
