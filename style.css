@@ -277,8 +277,8 @@ h4{
     display: flex;
 }
 .container{
-    width: 33vw;
-    height: 33vw; 
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
     display: flex; 
     flex-wrap: wrap;
     flex-direction: row;
