@@ -328,6 +328,6 @@ h4{
     border-top: 1px solid black
 }
 
-.last-container :last-child(p) {
+.last-container>p:last-child {
     border-bottom: 1px solid black;
-}
+    }
